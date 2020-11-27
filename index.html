@@ -1,0 +1,54 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ரயில்வே தகவல் மையம்</title>
+    <link rel="icon" type="image/png" href="./ir_icon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 class="title-text">ரயில்வே தகவல் மையம்</h1>
+    <div class="quote-container" id="quote-container">
+      <!-- Quote -->
+      <div class="quote-text">
+        <h3 class="sub-heading">உங்கள் கேள்வி</h3>
+        <textarea
+          id="quote"
+          cols="50"
+          rows="6"
+          placeholder="சென்னை செல்லும் ரயில் எப்போது புறப்படும்?"
+        ></textarea>
+      </div>
+      <!-- Author -->
+      <!--
+      <div class="quote-author">
+        <span id="author"></span>
+      </div>
+      -->
+      <!-- Buttons-->
+      <div class="button-container">
+        <!-- <button class="twitter-button" id="twitter" title="Tweet This!">
+          Tokenisation
+        </button> -->
+        <button id="answer">கேள்</button>
+      </div>
+
+      <textarea
+        placeholder="சென்னை செல்லும் ரயில் காலை 10:30 மணிக்கு புறப்படும் "
+        id="quote"
+        cols="50"
+        rows="6"
+        readonly = "readonly"
+      ></textarea>
+    </div>
+
+    <!-- Loader -->
+    <div class="loader" id="loader" hidden></div>
+    <!-- Scripts-->
+    <script src="scripts.js"></script>
+  </body>
+</html>
